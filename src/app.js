@@ -9,6 +9,18 @@
 // console.log(9);
 // console.log(10);
 
-for(let i=0; i<=10;i++){
+// for(let i=0; i<=10;i++){
+//     console.log(i);
+// }
+
+//Print even numbers from 0 to 20
+for(let i=0;i<=20;i++){
+    if(i%2 == 0){
+        console.log(i);
+    }
+}
+
+//reverse count from 100 to 10(with 10 decrement)
+for(let i=100; i>=0;i-=10){
     console.log(i);
 }
