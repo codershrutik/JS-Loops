@@ -26,8 +26,20 @@
 // }
 
 //Looping over arrays - aka iterating over an array
-const colors = ["voilet","indigo","blue","green","yellow","orange","red"];
+// const colors = ["voilet","indigo","blue","green","yellow","orange","red"];
 
-for(let i=0; i<colors.length;i++){
-    console.log(i, colors[i]);
+// for(let i=0; i<colors.length;i++){
+//     console.log(i, colors[i]);
+// }
+
+const seat = [
+    ['Shruti','Archana','Atharva'],
+    ['Sam','Amanda','Rachel'],
+    ['Monica','Ross','Chandler']
+];
+
+for(let i=0; i<seat.length;i++){
+    for(let j=0;j<seat[i].length;j++){
+        console.log(seat[i][j]);
+    }
 }
